@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b582ae84aa2f0243a28e65b2d8bb8b4, type: 3}
+  m_Name: MageData
+  m_EditorClassIdentifier: Assembly-CSharp::TowerData
+  towerName: MageData
+  cost: 150
+  range: 5
+  fireRate: 0.9
+  damage: 19
+  isAoE: 1
+  aoeRadius: 1.6
+  appliesSlow: 0
+  slowMultiplier: 0.5
+  slowDuration: 1.5
+  projectilePrefab: {fileID: 5688028609712831226, guid: 0cd28f7159dac504a8b150b13277c46b, type: 3}
