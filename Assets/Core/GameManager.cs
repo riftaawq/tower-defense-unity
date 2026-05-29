@@ -182,7 +182,7 @@ public class GameManager : MonoBehaviour
             gameMusic.UnPause();
     }
 
-    // 🔥 ОСЬ КНОПКА МУЗИКИ
+  
     public void ToggleMusic()
     {
         if (gameMusic == null) return;
