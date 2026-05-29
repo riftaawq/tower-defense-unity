@@ -4,7 +4,7 @@ public class BaseHealth : MonoBehaviour
 {
     [SerializeField] private int maxHP = 20;
 
-    // Це буде видно в Inspector
+    
     [SerializeField] private int currentHP;
 
     public int CurrentHP => currentHP;
@@ -23,7 +23,7 @@ public class BaseHealth : MonoBehaviour
     {
         currentHP = Mathf.Max(0, currentHP - amount);
 
-        Debug.Log("Base HP: " + currentHP); // 👈 щоб бачити в Console
+        Debug.Log("Base HP: " + currentHP); 
 
         GameManager.Instance?.NotifyBaseDamaged();
     }
